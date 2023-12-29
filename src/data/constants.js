@@ -121,7 +121,7 @@ export const experiences = [
     role: "Backend Developer",
     company: "CustEx.",
     date: "June 2023 - Nov 2023",
-    desc: "Collaborate with cross-functional teams to design, develop, and maintain the main platform of CustEx.com.Implement robust and scalable solutions using Node.js to support the dynamic and interactive nature of our crowdsourced demand platform.",
+    desc: "• Developed, tested, and deployed Restful APIs using Node.js and AWS serverless compute services.\n• Worked closely with the QA team to identify, troubleshoot, and resolve bugs quickly and efficiently.\n•	Upgraded legacy code and optimized code quality to enhance system performance and deliver a seamless user experience. ",
     skills: [
       "REST APIs",
       "AWS",
