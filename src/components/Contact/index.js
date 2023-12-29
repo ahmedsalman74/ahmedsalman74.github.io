@@ -150,7 +150,7 @@ const Contact = () => {
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInput placeholder="Subject" name="to_suject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
