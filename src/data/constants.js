@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/ahmedsalman74",
   resume:
-    "https://drive.google.com/file/d/1ThCXz4XQY8JhywQ25ikFd8Lh8ch2pIFU/view?usp=sharing",
+    "https://drive.google.com/drive/folders/17deURwWc9EduBu2cieodqCIMOCq6kK4n?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ahmedsalman74/",
   twitter: "https://twitter.com/Ahmedsalman47_",
   insta: "",
