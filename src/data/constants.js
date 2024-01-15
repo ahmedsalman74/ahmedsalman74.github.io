@@ -381,6 +381,74 @@ export const projects = [
   //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   // },
 ];
+function formatDate(date) {
+  // Format the date as per your requirement
+  const options = { year: 'numeric', month: 'short', day: 'numeric' };
+  return date.toLocaleDateString('en-US', options);
+}
+export const blogs = [
+  {
+    id: 9,
+    title: "Optimizing Node.js API Performance with Compression",
+    date: formatDate(new Date()),
+    description:
+      "To minimize the size of API responses with substantial payload, compression can be employed. When an HTTP request is made with the 'Accept-Encoding' header, the server can respond with a compressed output in a supported encoding, effectively reducing the data transferred over the network you can read more about compression from this documentation.",
+     
+    image:
+      "https://i.ibb.co/jJBHhpV/image.png",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "compression ",
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/feed/update/urn:li:activity:7152668253780164610/",
+    webapp: "",
+  },
+  
+  {
+    id: 1,
+    title: "Specific defense mechanism: Rate Limiting. ",
+    date: formatDate(new Date()),
+    description:
+     "As we navigate through the intricate details, we will uncover What is rate limiting?Rate limiting is a technique used to control the amount of incoming or outgoing traffic within a network. In this context, network refers to the line of communication between a client (e.g., a web browser) and our server (e.g., an API).",
+    image:
+      "https://i.ibb.co/JWYRxZT/image.png",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "compression ",
+      "ratelimiting ",
+      "ddosprotection",
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/posts/ahmedsalman74_how-to-implement-rate-limiting-expressjs-activity-7150896583834853376-Wxsh?utm_source=share&utm_medium=member_desktop",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "Defending Against DDoS Attacks in Node.js. ",
+    date: formatDate(new Date()),
+    description:
+     " Distributed Denial of Service (DDoS) attacks are a common occurrence in today's world. They are a type of cyberattack that aims to disrupt the normal functioning of a network by flooding it with traffic. This can be done by sending a large number of requests to a server or by sending large packets of data to a server.",    
+    image:
+      "https://i.ibb.co/YQhXMB7/image.png",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "compression ",
+      "ratelimiting ",
+      "ddosprotection",
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/posts/ahmedsalman74_tipsandtricks-nodejs-ddosattacks-activity-7150182043878842368-UrFC?utm_source=share&utm_medium=member_desktop",
+    webapp: "",
+  },
+  
+];
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

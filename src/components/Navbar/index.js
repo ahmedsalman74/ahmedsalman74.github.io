@@ -34,7 +34,7 @@ const Navbar = () => {
             }}
             href="/"
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="2rem" />
           </a>
         </NavLogo>
         <MobileIcon>
@@ -49,6 +49,7 @@ const Navbar = () => {
           <NavLink href="#skills">Skills</NavLink>
           {/* <NavLink href="#experience">Experience</NavLink> */}
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#blogs">Blogs</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -74,14 +75,14 @@ const Navbar = () => {
             >
               Skills
             </MobileLink>
-            <MobileLink
+            {/* <MobileLink
               href="#experience"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
               Experience
-            </MobileLink>
+            </MobileLink> */}
             <MobileLink
               href="#projects"
               onClick={() => {
@@ -89,6 +90,14 @@ const Navbar = () => {
               }}
             >
               Projects
+            </MobileLink>
+            <MobileLink
+              href="#blogs"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Blogs
             </MobileLink>
             <MobileLink
               href="#education"

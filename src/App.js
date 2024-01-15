@@ -12,7 +12,9 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import BlogsDetails from "./components/BlogDetails";
 import styled from "styled-components";
+import Blogs from './components/blogs';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -37,6 +39,7 @@ const Wrapper = styled.div`
 function App() {
   const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [blogModal, setblogModal] = useState({ state: false, project: null });
   console.log(openModal);
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
@@ -53,11 +56,16 @@ function App() {
           
           <Wrapper>
             {/* <Education /> */}
+            <Blogs blogModal={blogModal} setblogModal={setblogModal} />
+            
             <Contact />
           </Wrapper>
           <Footer />
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
+          {blogModal.state && (
+            <BlogsDetails blogModal={blogModal} setblogModal={setblogModal} />
           )}
         </Body>
       </Router>
