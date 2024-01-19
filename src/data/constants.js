@@ -447,6 +447,26 @@ export const blogs = [
     post: "https://www.linkedin.com/posts/ahmedsalman74_tipsandtricks-nodejs-ddosattacks-activity-7150182043878842368-UrFC?utm_source=share&utm_medium=member_desktop",
     webapp: "",
   },
+  {
+    id: 3,
+    title: "How to make node.js API 10 x fast using caching ",
+    date: formatDate(new Date()),
+    description:
+    "Improving the performance of your Node.js API by implementing caching is a powerful strategy. Caching involves storing and retrieving frequently used data, reducing the need to repeatedly fetch or compute the same information. This can lead to significant speed improvements by minimizing resource-intensive operations. Here’s an introduction on how to make your Node.js API 10 times faster using caching:",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/0*NH5LSCDCikZ3wWTS.jpeg",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "Caching in Node.js ",
+      "ratelimiting ",
+      "Redis ",
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/posts/ahmedsalman74_tipsandtricks-nodejs-ddosattacks-activity-7150182043878842368-UrFC?utm_source=share&utm_medium=member_desktop",
+    webapp: "",
+  },
   
 ];
 
