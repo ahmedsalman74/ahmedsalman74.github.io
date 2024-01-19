@@ -464,7 +464,7 @@ export const blogs = [
       
     ],
     category: "web app",
-    post: "https://www.linkedin.com/posts/ahmedsalman74_tipsandtricks-nodejs-ddosattacks-activity-7150182043878842368-UrFC?utm_source=share&utm_medium=member_desktop",
+    post: "https://medium.com/@ahmedsalman74/how-to-make-node-js-api-10-x-fast-using-cashing-f78f2677711e",
     webapp: "",
   },
   
