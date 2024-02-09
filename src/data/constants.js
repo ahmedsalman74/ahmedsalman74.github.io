@@ -467,6 +467,26 @@ export const blogs = [
     post: "https://medium.com/@ahmedsalman74/how-to-make-node-js-api-10-x-fast-using-cashing-f78f2677711e",
     webapp: "",
   },
+  {
+    id: 4,
+    title: "Scaling out a  Database ",
+    date: formatDate(new Date()),
+    description:
+    "Scaling a database can be challenging, and one approach to tackle this challenge is through Sharding. However, it's essential to acknowledge that sharding is a intricate process. Several prominent companies, including Discord, Notion, and Quora, have successfully employed sharding as a strategy to scale their databases.",
+    image:
+      "https://i.ibb.co/NLrHND0/image.png",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "scalability ",
+      "sharding ",
+      "Redis ",
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/posts/ahmedsalman74_understanding-the-complexity-and-power-of-activity-7155973956892532736-qDS3?utm_source=share&utm_medium=member_desktop",
+    webapp: "",
+  },
   
 ];
 
