@@ -487,6 +487,46 @@ export const blogs = [
     post: "https://www.linkedin.com/posts/ahmedsalman74_understanding-the-complexity-and-power-of-activity-7155973956892532736-qDS3?utm_source=share&utm_medium=member_desktop",
     webapp: "",
   },
+  {
+    id: 5,
+    title: "The Power of Clustering in Node.js for Optimal Performance  ",
+    date: formatDate(new Date()),
+    description:
+    "Are you looking to boost the performance of your Node.js applications? Look no further than clustering! In our latest article, we explore the workings, benefits, and practical implementation of Node.js clustering. Discover how to set up a basic cluster, implement load balancing strategies, handle worker crashes, and follow best practices. With these insights, you can harness the full potential of multi-core systems and ensure a smoother user experience for your Node.js applications. Don't miss out on the opportunity to optimize your code and take your applications to the next level. ",
+    image:
+      "https://media.licdn.com/dms/image/D5612AQFwxA_xdAczgA/article-cover_image-shrink_720_1280/0/1709210531399?e=1715212800&v=beta&t=GYUqbJtaYzMyMsWq7CeX4VjGBr8m9hbGz9cQHttuCBk",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "scalability ",
+      "Clustering ",
+      "Worker Crashes ",
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/pulse/power-clustering-nodejs-optimal-performance-ahmed-salman-tsovc/?trackingId=C9HjrL17xNHwe3nBtuCGQg%3D%3D",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "10 Powerful GitHub Repos to MasterUnleash the Backend  ",
+    date: formatDate(new Date()),
+    description:
+    "Level Up Your Backend Skills: 10 Powerful GitHub Repos to MasterUnleash the Backend Beast Within Ever feel like your backend coding needs a supercharge? ⚡️ Look no further! This curated list of 10 GitHub repositories is your one-stop shop to hone your skills, conquer challenges, and become the ultimate backend developer.From architectural best practices to real-world project inspiration, these repositories offer a treasure trove of knowledge and practical guidance. Dive in, explore, and elevate your backend game to the next level! ",
+    image:
+      "https://i.ibb.co/HYVZTWs/image.png",
+    tags: [
+      "Awesome Backend",
+      "Clean Architecture:",
+      " Awesome Node.js ",
+      "RealWorld ",
+      
+      
+    ],
+    category: "web app",
+    post: "https://www.linkedin.com/pulse/power-clustering-nodejs-optimal-performance-ahmed-salman-tsovc/?trackingId=C9HjrL17xNHwe3nBtuCGQg%3D%3D",
+    webapp: "",
+  },
   
 ];
 
