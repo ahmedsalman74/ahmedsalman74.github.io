@@ -2,7 +2,7 @@ export const Bio = {
   name: "Ahmed salman",
   roles: [
     "Backend Developer",
-   
+
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -82,10 +82,10 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      
+
     ],
   },
-  
+
   {
     title: "Others",
     skills: [
@@ -109,7 +109,7 @@ export const skills = [
         image:
           "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png",
       },
-      
+
     ],
   },
 ];
@@ -145,7 +145,7 @@ export const experiences = [
       "JavaScript",
       "HTML",
       "CSS",
-      
+
     ],
     doc: "",
   },
@@ -175,7 +175,7 @@ export const experiences = [
     desc: "•	Specifically, I employed the MVC architectural pattern to successfully implement login functionality, user validation, verification, and retrieval of available rooms within the admin dashboard.",
     doc: "",
   },
- 
+
 ];
 
 export const education = [
@@ -188,10 +188,41 @@ export const education = [
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Artificial Intelligence at benha university.",
     degree: "in Computers and Artificial Intelligence",
   },
-  
+
 ];
 
 export const projects = [
+  {
+    id: 7,
+    title: "Markteer",
+    date: "january 2024 - april 2024",
+    description:
+      "Markteer API serves as the backend for an eCommerce application, offering various endpoints for managing categories, products, users, authentication, reviews, wishlist, orders, and more. The API is built using Node.js and Express, providing a robust and scalable solution for building eCommerce platforms..",
+    image:
+      "https://i.ibb.co/L0GjzpR/image.png",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "bcrypt",
+      "jsonwebtoken",
+      "winston",
+      "multer",
+      "MongoDb",
+      "Mongoose",
+      "sharp",
+      "nodemailer",
+      "compression",
+      "hpp",
+      "express - rate - limit ",
+      "express - mongo - sanitize",
+      "xss - clean",
+      "Stripe",
+
+    ],
+    category: "web app",
+    github: "https://github.com/ahmedsalman74/Markteer",
+    webapp: "",
+  },
   {
     id: 9,
     title: "Cources API",
@@ -221,14 +252,14 @@ export const projects = [
       "This Node.js Express API provides CRUD operations for task management and To Do list.",
     image:
       "https://user-images.githubusercontent.com/86913048/227101123-f8a35258-9c21-4479-86e8-055659ab75e2.png",
-    tags: [ "NodeJs",
-    "ExpressJs",
-    "bcrypt",
-    "jsonwebtoken",
-    "winston",
-    "multer",
-    "MongoDb",
-  ],
+    tags: ["NodeJs",
+      "ExpressJs",
+      "bcrypt",
+      "jsonwebtoken",
+      "winston",
+      "multer",
+      "MongoDb",
+    ],
     category: "web app",
     github: "https://github.com/ahmedsalman74/Task-Manager-API",
     webapp: "",
@@ -239,7 +270,7 @@ export const projects = [
     //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     //     github: "https://github.com/ahmedsalman74/Task-Manager-API",
     //   },
-      
+
     // ],
   },
   {
@@ -252,11 +283,11 @@ export const projects = [
       "https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2022/11/28162754/Best-FreeOpen-Source-Hospital-Management-System-01.png",
     tags: [
       "Laravel",
-    "MVC",
-    "bcrypt",
-    "jsonwebtoken",
-    "SQL",
-    
+      "MVC",
+      "bcrypt",
+      "jsonwebtoken",
+      "SQL",
+
     ],
     category: "web app",
     github: "https://github.com/ahmedsalman74/H2B",
@@ -297,7 +328,7 @@ export const projects = [
       "Tic-tac-toe is a game for two players, ❌ and ⭕, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.",
     image:
       "https://github.com/Aklilu-Mandefro/Tic-Tac-Toe-game-using-html-css-and-javascript/raw/main/assets/demos/walkthrough-scores.gif",
-    tags: ["Javascript", ],
+    tags: ["Javascript",],
     category: "web app",
     github: "https://github.com/ahmedsalman74/Tic-Tac-X-O-Game-with-JavaScript",
     webapp: "https://github.com/ahmedsalman74/Tic-Tac-X-O-Game-with-JavaScript",
@@ -393,26 +424,26 @@ export const blogs = [
     date: formatDate(new Date()),
     description:
       "To minimize the size of API responses with substantial payload, compression can be employed. When an HTTP request is made with the 'Accept-Encoding' header, the server can respond with a compressed output in a supported encoding, effectively reducing the data transferred over the network you can read more about compression from this documentation.",
-     
+
     image:
       "https://i.ibb.co/jJBHhpV/image.png",
     tags: [
       "NodeJs",
       "ExpressJs",
       "compression ",
-      
+
     ],
     category: "web app",
     post: "https://www.linkedin.com/feed/update/urn:li:activity:7152668253780164610/",
     webapp: "",
   },
-  
+
   {
     id: 1,
     title: "Specific defense mechanism: Rate Limiting. ",
     date: formatDate(new Date()),
     description:
-     "As we navigate through the intricate details, we will uncover What is rate limiting?Rate limiting is a technique used to control the amount of incoming or outgoing traffic within a network. In this context, network refers to the line of communication between a client (e.g., a web browser) and our server (e.g., an API).",
+      "As we navigate through the intricate details, we will uncover What is rate limiting?Rate limiting is a technique used to control the amount of incoming or outgoing traffic within a network. In this context, network refers to the line of communication between a client (e.g., a web browser) and our server (e.g., an API).",
     image:
       "https://i.ibb.co/JWYRxZT/image.png",
     tags: [
@@ -421,7 +452,7 @@ export const blogs = [
       "compression ",
       "ratelimiting ",
       "ddosprotection",
-      
+
     ],
     category: "web app",
     post: "https://www.linkedin.com/posts/ahmedsalman74_how-to-implement-rate-limiting-expressjs-activity-7150896583834853376-Wxsh?utm_source=share&utm_medium=member_desktop",
@@ -432,7 +463,7 @@ export const blogs = [
     title: "Defending Against DDoS Attacks in Node.js. ",
     date: formatDate(new Date()),
     description:
-     " Distributed Denial of Service (DDoS) attacks are a common occurrence in today's world. They are a type of cyberattack that aims to disrupt the normal functioning of a network by flooding it with traffic. This can be done by sending a large number of requests to a server or by sending large packets of data to a server.",    
+      " Distributed Denial of Service (DDoS) attacks are a common occurrence in today's world. They are a type of cyberattack that aims to disrupt the normal functioning of a network by flooding it with traffic. This can be done by sending a large number of requests to a server or by sending large packets of data to a server.",
     image:
       "https://i.ibb.co/YQhXMB7/image.png",
     tags: [
@@ -441,7 +472,7 @@ export const blogs = [
       "compression ",
       "ratelimiting ",
       "ddosprotection",
-      
+
     ],
     category: "web app",
     post: "https://www.linkedin.com/posts/ahmedsalman74_tipsandtricks-nodejs-ddosattacks-activity-7150182043878842368-UrFC?utm_source=share&utm_medium=member_desktop",
@@ -452,7 +483,7 @@ export const blogs = [
     title: "How to make node.js API 10 x fast using caching ",
     date: formatDate(new Date()),
     description:
-    "Improving the performance of your Node.js API by implementing caching is a powerful strategy. Caching involves storing and retrieving frequently used data, reducing the need to repeatedly fetch or compute the same information. This can lead to significant speed improvements by minimizing resource-intensive operations. Here’s an introduction on how to make your Node.js API 10 times faster using caching:",
+      "Improving the performance of your Node.js API by implementing caching is a powerful strategy. Caching involves storing and retrieving frequently used data, reducing the need to repeatedly fetch or compute the same information. This can lead to significant speed improvements by minimizing resource-intensive operations. Here’s an introduction on how to make your Node.js API 10 times faster using caching:",
     image:
       "https://miro.medium.com/v2/resize:fit:720/format:webp/0*NH5LSCDCikZ3wWTS.jpeg",
     tags: [
@@ -461,7 +492,7 @@ export const blogs = [
       "Caching in Node.js ",
       "ratelimiting ",
       "Redis ",
-      
+
     ],
     category: "web app",
     post: "https://medium.com/@ahmedsalman74/how-to-make-node-js-api-10-x-fast-using-cashing-f78f2677711e",
@@ -472,7 +503,7 @@ export const blogs = [
     title: "Scaling out a  Database ",
     date: formatDate(new Date()),
     description:
-    "Scaling a database can be challenging, and one approach to tackle this challenge is through Sharding. However, it's essential to acknowledge that sharding is a intricate process. Several prominent companies, including Discord, Notion, and Quora, have successfully employed sharding as a strategy to scale their databases.",
+      "Scaling a database can be challenging, and one approach to tackle this challenge is through Sharding. However, it's essential to acknowledge that sharding is a intricate process. Several prominent companies, including Discord, Notion, and Quora, have successfully employed sharding as a strategy to scale their databases.",
     image:
       "https://i.ibb.co/NLrHND0/image.png",
     tags: [
@@ -481,7 +512,7 @@ export const blogs = [
       "scalability ",
       "sharding ",
       "Redis ",
-      
+
     ],
     category: "web app",
     post: "https://www.linkedin.com/posts/ahmedsalman74_understanding-the-complexity-and-power-of-activity-7155973956892532736-qDS3?utm_source=share&utm_medium=member_desktop",
@@ -492,7 +523,7 @@ export const blogs = [
     title: "The Power of Clustering in Node.js for Optimal Performance  ",
     date: formatDate(new Date()),
     description:
-    "Are you looking to boost the performance of your Node.js applications? Look no further than clustering! In our latest article, we explore the workings, benefits, and practical implementation of Node.js clustering. Discover how to set up a basic cluster, implement load balancing strategies, handle worker crashes, and follow best practices. With these insights, you can harness the full potential of multi-core systems and ensure a smoother user experience for your Node.js applications. Don't miss out on the opportunity to optimize your code and take your applications to the next level. ",
+      "Are you looking to boost the performance of your Node.js applications? Look no further than clustering! In our latest article, we explore the workings, benefits, and practical implementation of Node.js clustering. Discover how to set up a basic cluster, implement load balancing strategies, handle worker crashes, and follow best practices. With these insights, you can harness the full potential of multi-core systems and ensure a smoother user experience for your Node.js applications. Don't miss out on the opportunity to optimize your code and take your applications to the next level. ",
     image:
       "https://media.licdn.com/dms/image/D5612AQFwxA_xdAczgA/article-cover_image-shrink_720_1280/0/1709210531399?e=1715212800&v=beta&t=GYUqbJtaYzMyMsWq7CeX4VjGBr8m9hbGz9cQHttuCBk",
     tags: [
@@ -501,7 +532,7 @@ export const blogs = [
       "scalability ",
       "Clustering ",
       "Worker Crashes ",
-      
+
     ],
     category: "web app",
     post: "https://www.linkedin.com/pulse/power-clustering-nodejs-optimal-performance-ahmed-salman-tsovc/?trackingId=C9HjrL17xNHwe3nBtuCGQg%3D%3D",
@@ -512,7 +543,7 @@ export const blogs = [
     title: "10 Powerful GitHub Repos to MasterUnleash the Backend  ",
     date: formatDate(new Date()),
     description:
-    "Level Up Your Backend Skills: 10 Powerful GitHub Repos to MasterUnleash the Backend Beast Within Ever feel like your backend coding needs a supercharge? ⚡️ Look no further! This curated list of 10 GitHub repositories is your one-stop shop to hone your skills, conquer challenges, and become the ultimate backend developer.From architectural best practices to real-world project inspiration, these repositories offer a treasure trove of knowledge and practical guidance. Dive in, explore, and elevate your backend game to the next level! ",
+      "Level Up Your Backend Skills: 10 Powerful GitHub Repos to MasterUnleash the Backend Beast Within Ever feel like your backend coding needs a supercharge? ⚡️ Look no further! This curated list of 10 GitHub repositories is your one-stop shop to hone your skills, conquer challenges, and become the ultimate backend developer.From architectural best practices to real-world project inspiration, these repositories offer a treasure trove of knowledge and practical guidance. Dive in, explore, and elevate your backend game to the next level! ",
     image:
       "https://i.ibb.co/HYVZTWs/image.png",
     tags: [
@@ -520,14 +551,14 @@ export const blogs = [
       "Clean Architecture:",
       "Awesome Node.js ",
       "RealWorld ",
-      
-      
+
+
     ],
     category: "web app",
     post: "https://www.linkedin.com/pulse/power-clustering-nodejs-optimal-performance-ahmed-salman-tsovc/?trackingId=C9HjrL17xNHwe3nBtuCGQg%3D%3D",
     webapp: "",
   },
-  
+
 ];
 
 export const TimeLineData = [
