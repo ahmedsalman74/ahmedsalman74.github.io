@@ -419,6 +419,27 @@ function formatDate(date) {
 }
 export const blogs = [
   {
+    id:11,
+    title: "NoSQL Injection: A Beginner's Guide to Backend Security",
+    date: formatDate(new Date()),
+    description:
+      "As aspiring developers embark on their journey into the world of backend development, it’s crucial to not only grasp the fundamentals of coding but also to understand the importance of security.One aspect of security that often goes overlooked, especially among beginners, is the threat of injection attacks. While SQL injection is a well-known vulnerability in traditional SQL databases, NoSQL injection poses similar risks in NoSQL databases.In this article, we’ll delve into the concepts of SQL and NoSQL injection, highlight their differences, and provide practical steps to mitigate the risk of NoSQL injection, especially in the context of Express.js development.",
+
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*th4NVzjbl9oQd-ipH9kWAA.jpeg",
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "Nosql Injection ",
+      "Security",
+      "Cross Site Scripting",
+
+    ],
+    category: "web app",
+    post: "https://ahmedsalman74.medium.com/nosql-injection-a-beginners-guide-to-backend-security-b1553249c1e3",
+    webapp: "",
+  },
+  {
     id: 9,
     title: "Optimizing Node.js API Performance with Compression",
     date: formatDate(new Date()),
