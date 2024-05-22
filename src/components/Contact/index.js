@@ -122,7 +122,6 @@ const ErrorMessage = styled.div`
   color: red;
   font-size: 14px;
 `;
-
 const Contact = () => {
   const [open, setOpen] = useState(false);
   const [formValues, setFormValues] = useState({
@@ -139,8 +138,12 @@ const Contact = () => {
 
     // Basic validation
     const newErrors = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     if (!formValues.from_email.trim()) {
       newErrors.from_email = 'Email is required';
+    } else if (!emailRegex.test(formValues.from_email)) {
+      newErrors.from_email = 'Email is invalid';
     }
     if (!formValues.from_name.trim()) {
       newErrors.from_name = 'Name is required';
@@ -159,6 +162,12 @@ const Contact = () => {
           (result) => {
             setOpen(true);
             form.current.reset();
+            setFormValues({
+              from_email: '',
+              from_name: '',
+              to_subject: '',
+              message: '',
+            });
           },
           (error) => {
             console.log(error.text);
